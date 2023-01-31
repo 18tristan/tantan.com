@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:serif
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bil.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar img{
+    height: 15%;
+    width: 15%;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding:-15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+    .navbar ul li{
+    align-content: flex-end;
+    align-items: left;
+    list-style: none;
+    display: inline-block;    
+    margin: 0 30px;
+}
+
+.navbar ul li a{
+    align-content: flex-end;
+    align-items: left;
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    
+}
+.col{
+    flex-basis: 50%;
+    font-size: 80px;
+    color:cornsilk;
+}
+.h1{
+    color: beige;
+    font-size: ;
+}
+.p{
+    color: beige;
+    font-size: 11px;
+    line-height: 15px;
+}
+.heh{
+    text-align: justify;
+    align-content: space-between;
+    float: right;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;    
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(bil.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(bil1.jpg);
+    text-align: left;
+
+}.card2{
+    background-image: url(zak2.jpg);
+}.card3{
+    background-image: url(joji3.jpeg);
+}.card4{
+    background-image: url(wekk.png);
+    text-align: 
+}
+.card:hover{
+    transform: translateY(-10px);
+}  
+
+a{
+    color: beige;
+   font-size: 160%;
+}
+.card1 a{
+    color: black;
+  font-size: 180%;
+    font-family:fantasy;
+    text-decoration: none;
+}
+.card4 a{
+    color: darkred;
+    font-family:fantasy;
+    text-decoration: none;
+}
+.card2 a{
+    text-decoration: none;
+    font-family: fantasy;
+    color:orangered;
+    font-size: 155%;
+}
+.card3 a{
+    text-decoration: none;
+}
+.navbar img{
+    outline-color: white;
+}
